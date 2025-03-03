@@ -1,5 +1,5 @@
 // 在文件顶部定义 API key
-const DEEPSEEK_API_KEY = 'sk-18de04beed6d4095becf65f65af774f5';
+const DEEPSEEK_API_KEY = '你的密钥';
 let controller = null; // 用于控制请求的 AbortController
 
 async function sendMessage() {
