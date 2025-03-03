@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 智能助手</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-content">
+                <i class="material-icons">smart_toy</i>
+                <h2>AI 助手</h2>
+            </div>
+        </div>
+        <div class="chat-messages" id="messageArea">
+            <div class="message received">
+                <div class="message-content">
+                    <div class="message-text">你好！我是 AI 助手，很高兴为你服务！👋</div>
+                    <div class="message-time">现在</div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="输入消息...">
+            <button onclick="sendMessage()">
+                <i class="material-icons">send</i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
