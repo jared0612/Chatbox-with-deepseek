@@ -2,9 +2,9 @@
 export const CONFIG = {
     // API 配置
     API: {
-        DEEPSEEK_API_KEY: 'sk-46b1ff4749494c688efffd416d07744e',
+        DEEPSEEK_API_KEY: 'xxx',	//修改项
         API_URL: 'https://api.deepseek.com/v1/chat/completions',
-        MODEL: 'deepseek-chat'
+        MODEL: 'deepseek-chat'	//修改项
     }
 
 };

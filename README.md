@@ -27,6 +27,8 @@
 ## 自定义配置
 
 如需自定义 AI 模型或更改 API，请修改 `script.js` 文件中的相关配置：
-
+下面的配置方式已废除
 ```javascript
 const DEEPSEEK_API_KEY = '你的API密钥';
+新的配置方式：
+打开`config/api-config.js`文件,修改其中的配置项 `DEEPSEEK_API_KEY`和其他配置项。
